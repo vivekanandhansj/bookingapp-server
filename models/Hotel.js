@@ -19,17 +19,15 @@ const HotelSchema=new mongoose.Schema({
         required:true
     },
     distance:{
-        type:String,
-        required:true
+        type:String
     },
     photos:{
-        type:String,
+        type:[String],
         required:true
     },
     title:{
-        type:String,
-        required:true
-    },
+        type:String
+
     desc:{
         type:String,
         required:true
